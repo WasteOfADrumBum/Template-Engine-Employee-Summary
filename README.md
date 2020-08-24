@@ -24,11 +24,15 @@ I've built a software engineering team generator command line application. The a
 
 ## Installation
 
+```
 In the `Develop` folder, there is a `package.json`, so make sure to `npm install`.
+```
 
 ## Usage
 
+```
 Your app will run as a Node CLI to gather information about each employee. Initialize with 'node app.js'
+```
 
 ## Repository
 
@@ -38,37 +42,43 @@ Your app will run as a Node CLI to gather information about each employee. Initi
 
 ![GitHub license](https://img.shields.io/badge/test-100%25-success)
 
+```
 Initialize test with 'npm test'
+```
 
- PASS  test/Employee.test.js
-  √ Can instantiate Employee instance (5ms)
-  √ Can set name via constructor arguments (1ms)
-  √ Can set id via constructor argument
-  √ Can set email via constructor argument (1ms)
-  √ Can get name via getName()
-  √ Can get id via getId() (1ms)
-  √ Can get email via getEmail()
-  √ getRole() should return "Employee" (1ms)
+```
+- PASS  test/Employee.test.js
+ -  √ Can instantiate Employee instance (5ms)
+ -  √ Can set name via constructor arguments (1ms)
+ -  √ Can set id via constructor argument
+ -  √ Can set email via constructor argument (1ms)
+ -  √ Can get name via getName()
+ -  √ Can get id via getId() (1ms)
+ -  √ Can get email via getEmail()
+ -  √ getRole() should return "Employee" (1ms)
 
- PASS  test/Intern.test.js
-  √ Can set school via constructor (7ms)
-  √ getRole() should return "Intern" (1ms)
-  √ Can get school via getSchool()
+- PASS  test/Intern.test.js
+ -  √ Can set school via constructor (7ms)
+ -  √ getRole() should return "Intern" (1ms)
+ -  √ Can get school via getSchool()
 
- PASS  test/Manager.test.js
-  √ Can set office number via constructor argument (7ms)
-  √ getRole() should return "Manager" (1ms)
-  √ Can get office number via getOffice() (1ms)
+- PASS  test/Manager.test.js
+ -  √ Can set office number via constructor argument (7ms)
+ -  √ getRole() should return "Manager" (1ms)
+ - √ Can get office number via getOffice() (1ms)
 
- PASS  test/Engineer.test.js
-  √ Can set GitHUb account via constructor (5ms)
-  √ getRole() should return "Engineer" (1ms)
-  √ Can get GitHub username via getGithub() (1ms)
+- PASS  test/Engineer.test.js
+ -  √ Can set GitHUb account via constructor (5ms)
+ -  √ getRole() should return "Engineer" (1ms)
+ -  √ Can get GitHub username via getGithub() (1ms)
+```
 
+```
 Test Suites: 4 passed, 4 total
 Tests:       17 passed, 17 total
 Snapshots:   0 total
 Time:        4.152s
+```
 
 ## Licence
 
