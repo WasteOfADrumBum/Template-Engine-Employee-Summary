@@ -72,7 +72,7 @@ Time:        4.152s
 
 ## Licence
 
-MIT License
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## GitHub
 
