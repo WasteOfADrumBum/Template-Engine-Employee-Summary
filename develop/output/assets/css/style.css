@@ -1,0 +1,136 @@
+.card-body {
+	background-color: silver;
+	/* https://codingwiki.fandom.com/wiki/CSS_Patterns */
+	background-image: radial-gradient(
+			circle at 100% 150%,
+			silver 24%,
+			white 24%,
+			white 28%,
+			silver 28%,
+			silver 36%,
+			white 36%,
+			white 40%,
+			transparent 40%,
+			transparent
+		),
+		radial-gradient(
+			circle at 0 150%,
+			silver 24%,
+			white 24%,
+			white 28%,
+			silver 28%,
+			silver 36%,
+			white 36%,
+			white 40%,
+			transparent 40%,
+			transparent
+		),
+		radial-gradient(
+			circle at 50% 100%,
+			white 10%,
+			silver 10%,
+			silver 23%,
+			white 23%,
+			white 30%,
+			silver 30%,
+			silver 43%,
+			white 43%,
+			white 50%,
+			silver 50%,
+			silver 63%,
+			white 63%,
+			white 71%,
+			transparent 71%,
+			transparent
+		),
+		radial-gradient(
+			circle at 100% 50%,
+			white 5%,
+			silver 5%,
+			silver 15%,
+			white 15%,
+			white 20%,
+			silver 20%,
+			silver 29%,
+			white 29%,
+			white 34%,
+			silver 34%,
+			silver 44%,
+			white 44%,
+			white 49%,
+			transparent 49%,
+			transparent
+		),
+		radial-gradient(
+			circle at 0 50%,
+			white 5%,
+			silver 5%,
+			silver 15%,
+			white 15%,
+			white 20%,
+			silver 20%,
+			silver 29%,
+			white 29%,
+			white 34%,
+			silver 34%,
+			silver 44%,
+			white 44%,
+			white 49%,
+			transparent 49%,
+			transparent
+		);
+	background-size: 100px 50px;
+}
+
+.card-header {
+	text-align: center;
+	background-color: grey;
+	-webkit-text-stroke: 1px black;
+	color: white;
+	border-radius: 0;
+	border-bottom: 3px solid white;
+	box-shadow: 0 20px 20px -20px #333;
+}
+
+.card {
+	border: 2px solid white;
+	margin: 1rem;
+	box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.jumbotron {
+	background-color: grey;
+	color: white;
+	text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+		0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+		0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+		0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+		0 20px 20px rgba(0, 0, 0, 0.15);
+	border-radius: 0;
+	border-bottom: 10px solid white;
+	box-shadow: 0 20px 20px -20px #333;
+	margin-bottom: 3rem !important;
+	text-transform: uppercase;
+}
+
+.jumbotron h1 {
+	font-size: 5.5rem;
+}
+
+.fas {
+	-webkit-text-stroke: 1px black;
+	color: white;
+	text-shadow: 3px 3px 0 #666, -1px -1px 0 #666, 1px -1px 0 #666,
+		-1px 1px 0 #666, 1px 1px 0 #666;
+}
+
+a {
+	color: black;
+}
+
+@media screen and (max-width: 640px) {
+	/* Phones */
+	.justify-content-center {
+		flex-direction: column !important;
+	}
+}
